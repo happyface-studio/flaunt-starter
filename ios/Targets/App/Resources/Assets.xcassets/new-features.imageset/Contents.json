@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "feature showcase.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

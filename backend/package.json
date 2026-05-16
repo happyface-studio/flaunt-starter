@@ -1,0 +1,18 @@
+{
+  "name": "{{PROJECT_ID}}-backend",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Backend tooling for {{APP_NAME}} — Supabase migrations and edge functions.",
+  "scripts": {
+    "db:local:dev": "supabase start",
+    "db:local:stop": "supabase stop",
+    "db:local:reset": "supabase db reset",
+    "db:link:dev": "supabase link --project-ref {{SUPABASE_PROJECT_REF_DEV}}",
+    "db:link:prod": "supabase link --project-ref {{SUPABASE_PROJECT_REF_PROD}}",
+    "db:migration:new": "supabase migration new",
+    "db:push": "supabase db push",
+    "db:diff": "supabase db diff -f",
+    "functions:dev": "supabase functions serve",
+    "functions:deploy": "supabase functions deploy"
+  }
+}
