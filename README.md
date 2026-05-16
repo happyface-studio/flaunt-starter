@@ -53,6 +53,7 @@ Each is optional — `ci_post_clone.sh` skips injecting any plist whose env vars
 
 ## Docs
 
+- [`SETUP.md`](./SETUP.md) — Full setup walkthrough (Supabase, Xcode Cloud, Apple sign-in)
 - [`CLAUDE.md`](./CLAUDE.md) — Project conventions, architecture, environments
 - [`ios/CLAUDE.md`](./ios/CLAUDE.md) — Tuist modules, secrets, code style
 - [`backend/CLAUDE.md`](./backend/CLAUDE.md) — Migrations, edge functions, npm scripts
